@@ -4,6 +4,8 @@ import {
   constructRoutes,
   constructLayoutEngine,
 } from "single-spa-layout";
+import "./assets/main.css";
+
 import microfrontendLayout from "./microfrontend-layout.html";
 
 let environment;
