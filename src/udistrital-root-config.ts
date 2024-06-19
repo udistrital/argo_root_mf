@@ -5,6 +5,7 @@ import {
   constructLayoutEngine,
 } from "single-spa-layout";
 import "./assets/main.css";
+import "./assets/theme-angular-material.scss";
 
 import microfrontendLayout from "./microfrontend-layout.html";
 
