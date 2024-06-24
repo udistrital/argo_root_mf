@@ -4,13 +4,16 @@ import {
   constructRoutes,
   constructLayoutEngine,
 } from "single-spa-layout";
+import "./assets/main.css";
+import "./assets/theme-angular-material.scss";
+
 import microfrontendLayout from "./microfrontend-layout.html";
 
 let environment;
 
 declare var isProd: boolean | undefined;
 declare var isDev: boolean | undefined;
-declare var isLocal : boolean | undefined;
+declare var isLocal: boolean | undefined;
 
 if (isProd) {
   environment = require("./environments/environment.production");
