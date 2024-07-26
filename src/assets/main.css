@@ -7,3 +7,12 @@ h1, h2, h3, h4, h5, h6 {
 body, p, a, div, span, input, button, ul, li, table, th, td, footer, header, nav, section, article, aside {
     font-family: 'Open Sans', sans-serif;
 }
+
+.container {
+    margin: 92px auto 0; /* Margen superior basado en el navbar */
+    padding: 1.25rem;
+}
+
+.mat-horizontal-stepper-header-container {
+    margin: 1.25rem 0;
+}
