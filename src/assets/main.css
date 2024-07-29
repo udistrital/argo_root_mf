@@ -8,7 +8,7 @@ body, p, a, div, span, input, button, ul, li, table, th, td, footer, header, nav
     font-family: 'Open Sans', sans-serif;
 }
 
-.container {
+#container {
     margin: 92px auto 0; /* Margen superior basado en el navbar */
     padding: 1.25rem;
 }
