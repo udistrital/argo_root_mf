@@ -110,4 +110,10 @@ $light-theme: mat.define-light-theme((color: (primary: mat.define-palette($md-pr
       desity: 0,
     ));
 
+.border {
+  border: 2px solid var(--color200);
+  border-radius: 10px;
+  padding: 16px;
+}
+
 @include mat.all-component-themes($light-theme);
