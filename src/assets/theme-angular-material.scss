@@ -110,22 +110,4 @@ $light-theme: mat.define-light-theme((color: (primary: mat.define-palette($md-pr
       desity: 0,
     ));
 
-.border {
-  position: relative;
-  border: 2px solid var(--color700);
-  border-radius: 10px;
-  padding: 20px;
-  margin-top: 30px;
-}
-
-.border .title {
-  position: absolute;
-  top: 0;
-  left: 10px;
-  transform: translateY(-50%);
-  background-color: white;
-  padding: 0 5px;
-  margin: 0;
-}
-
 @include mat.all-component-themes($light-theme);
