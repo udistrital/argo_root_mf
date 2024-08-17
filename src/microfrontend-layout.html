@@ -19,13 +19,15 @@
 
   <main id="container">
     <route path="registrar-contrato">
-      <application name="@udistrital/argo-registrar-contrato-mf" props="environment"></application>
+      <application name="@udistrital/argo-gestion-contractual-mf" props="environment"></application>
+    </route>
+    <route path="consultar-contrato">
+      <application name="@udistrital/argo-gestion-contractual-mf" props="environment"></application>
     </route>
   </main>
 
   <div id="core">
     <application name="@udistrital/core-mf" props="environment"></application>
   </div>
-
-
+  
 </single-spa-router>
