@@ -1,4 +1,4 @@
-<single-spa-router>
+<single-spa-router base="/">
   <!--
 
     This is the single-spa Layout Definition for your microfrontends.
@@ -18,13 +18,10 @@
   -->
 
   <main id="container">
-    <route path="registrar-contrato">
-      <application name="@udistrital/argo-gestion-contractual-mf" props="environment"></application>
+    <route path="contratos">
+      <application name="@udistrital/argo-gestion-contractual-mf"></application>
     </route>
-    <route path="consultar-contrato">
-      <application name="@udistrital/argo-gestion-contractual-mf" props="environment"></application>
-    </route>
-    <route path="registro-actas">
+    <route path="actas">
       <application name="@udistrital/argo-actas-inicio-mf" props="environment"></application>
     </route>
   </main>

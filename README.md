@@ -77,10 +77,6 @@ Pruebas unitarias
 ```bash
 # Developing
 ```
-## Modelo de Datos
-```bash
-# Developing
-```
 
 ## Licencia
 
