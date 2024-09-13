@@ -21,5 +21,6 @@ export const environment = {
       "@udistrital/core-mf":"https://pruebascoreclientes.portaloas.udistrital.edu.co/main.js",
       "@udistrital/argo-gestion-contractual-mf": "//localhost:4201/main.js",
       "@udistrital/argo-actas-inicio-mf": "//localhost:4202/main.js",
+      "@udistrital/argo-polizas-mf": "//localhost:4203/main.js",
     }
   };
