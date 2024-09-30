@@ -13,20 +13,6 @@ module.exports = (webpackConfigEnv, argv) => {
     disableHtmlGeneration: true,
   });
 
-  /*return merge(defaultConfig, {
-    // modify the webpack config however you'd like to by adding to this object
-    plugins: [
-      new HtmlWebpackPlugin({
-        inject: false,
-        template: "src/index.ejs",
-        templateParameters: {
-          isLocal: webpackConfigEnv && webpackConfigEnv.isLocal,
-          orgName,
-        },
-      }),
-    ],
-  });*/
-
   return merge(defaultConfig, {
     // modify the webpack config however you'd like to by adding to this object
     module: {
