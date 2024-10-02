@@ -1,4 +1,4 @@
-# gestion_contractual_compras_root_mf
+# Gestión contractual Root MF
 
 El Root contiene la lógica de Single-SPA del sistema de gestion contractual (Argo) y gestiona todos los microfrontends dentro de la página web, ayuda a gestionar la comunicación entre 
 ellos y contiene el consumo de los assets, paleta de colores y favicon del sistema.
