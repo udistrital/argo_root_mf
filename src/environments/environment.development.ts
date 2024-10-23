@@ -22,6 +22,7 @@ export const environment = {
   parcels: {
     "@udistrital/root-config": "https://pruebasargomicroclientes.portaloas.udistrital.edu.co/udistrital-root-config.js",
     "@udistrital/core-mf": "https://pruebascoreclientes.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/argo-gestion-contractual-mf": "https://pruebasargogestioncontractual.portaloas.udistrital.edu.co/main.js",
     "@udistrital/argo-poliza-mf": "//localhost:4203/main.js",
   },
 };
