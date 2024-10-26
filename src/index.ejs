@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0">
+  <meta http-equiv="expires" content="0">
+  <meta http-equiv="pragma" content="no-cache">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>ARGO</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 
   <script src="https://cdn.jsdelivr.net/npm/regenerator-runtime@0.13.7/runtime.min.js"></script>
 
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: localhost:*; script-src 'unsafe-inline' 'unsafe-eval' https: localhost:*; connect-src https: localhost:* ws://localhost:*; style-src 'unsafe-inline' https:; object-src 'none';">
+  <meta http-equiv="Content-Security-Policy" 
+  content="
+    default-src 'self' https: localhost:* *.portaloas.udistrital.edu.co; 
+    script-src 'unsafe-inline' 'unsafe-eval' https: localhost:* *.portaloas.udistrital.edu.co; 
+    connect-src https: localhost:* ws://localhost:* *.portaloas.udistrital.edu.co; 
+    style-src 'unsafe-inline' https: *.portaloas.udistrital.edu.co; 
+    object-src 'none';">
   <meta name="importmap-type" content="systemjs-importmap" />
 
   <script type="systemjs-importmap">
