@@ -14,11 +14,15 @@
 
   <meta http-equiv="Content-Security-Policy" 
   content="
-    default-src 'self' https: localhost:* *.portaloas.udistrital.edu.co; 
-    script-src 'unsafe-inline' 'unsafe-eval' https: localhost:* *.portaloas.udistrital.edu.co; 
-    connect-src https: localhost:* ws://localhost:* *.portaloas.udistrital.edu.co; 
-    style-src 'unsafe-inline' https: *.portaloas.udistrital.edu.co; 
-    object-src 'none';">
+      default-src 'self' https: localhost:* *.portaloas.udistrital.edu.co; 
+      script-src 'self' 'unsafe-inline' 'unsafe-eval' https: localhost:* *.portaloas.udistrital.edu.co; 
+      connect-src 'self' https: localhost:* ws://localhost:* *.portaloas.udistrital.edu.co data: blob:;
+      style-src 'self' 'unsafe-inline' https: *.portaloas.udistrital.edu.co; 
+      img-src 'self' https: data: blob:; 
+      object-src 'self' https: *.portaloas.udistrital.edu.co blob:;
+      frame-src 'self' https: localhost:* *.portaloas.udistrital.edu.co blob:;
+  ">
+
   <meta name="importmap-type" content="systemjs-importmap" />
 
   <script type="systemjs-importmap">
