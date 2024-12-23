@@ -4,8 +4,7 @@ import {
   constructRoutes,
   constructLayoutEngine,
 } from "single-spa-layout";
-import "./assets/main.css";
-import "./assets/theme-angular-material.scss";
+import "./assets/styles/index.css";
 
 import microfrontendLayout from "./microfrontend-layout.html";
 
